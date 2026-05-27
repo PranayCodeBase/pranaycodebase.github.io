@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pranay Raj Parisha — Software Engineer</title>
+    <meta name="description" content="Software Engineer specializing in scalable data platforms, distributed data pipelines, and cloud-native automation systems." />
+    <meta property="og:title" content="Pranay Raj Parisha — Software Engineer" />
+    <meta property="og:description" content="Building scalable data platforms, distributed pipelines, and cloud-native automation systems." />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Ticker -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__inner">
+        <span class="ticker__item">DATA PLATFORMS</span>
+        <span class="ticker__item">*</span>
+        <span class="ticker__item">CI/CD AUTOMATION</span>
+        <span class="ticker__item">*</span>
+        <span class="ticker__item">DISTRIBUTED SYSTEMS</span>
+        <span class="ticker__item">*</span>
+        <span class="ticker__item">CLOUD ENGINEERING</span>
+        <span class="ticker__item">*</span>
+        <span class="ticker__item">PYTHON</span>
+        <span class="ticker__item">*</span>
+        <span class="ticker__item">BIGQUERY</span>
+        <span class="ticker__item">*</span>
+        <span class="ticker__item">PYSPARK</span>
+        <span class="ticker__item">*</span>
+        <span class="ticker__item">KUBERNETES</span>
+        <span class="ticker__item">*</span>
+        <span class="ticker__item">TECHNICAL WRITING</span>
+        <span class="ticker__item">*</span>
+        <span class="ticker__item">IIT MADRAS</span>
+        <span class="ticker__item">*</span>
+        <span class="ticker__item">DATA PLATFORMS</span>
+        <span class="ticker__item">*</span>
+        <span class="ticker__item">CI/CD AUTOMATION</span>
+        <span class="ticker__item">*</span>
+        <span class="ticker__item">DISTRIBUTED SYSTEMS</span>
+        <span class="ticker__item">*</span>
+        <span class="ticker__item">CLOUD ENGINEERING</span>
+        <span class="ticker__item">*</span>
+        <span class="ticker__item">PYTHON</span>
+        <span class="ticker__item">*</span>
+        <span class="ticker__item">BIGQUERY</span>
+        <span class="ticker__item">*</span>
+        <span class="ticker__item">PYSPARK</span>
+        <span class="ticker__item">*</span>
+        <span class="ticker__item">KUBERNETES</span>
+        <span class="ticker__item">*</span>
+        <span class="ticker__item">TECHNICAL WRITING</span>
+        <span class="ticker__item">*</span>
+        <span class="ticker__item">IIT MADRAS</span>
+        <span class="ticker__item">*</span>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+      <div class="nav__inner">
+        <a href="#hero" class="nav__logo">Pranay</a>
+        <ul class="nav__links">
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#skills" class="nav__link">Skills</a></li>
+          <li><a href="#projects" class="nav__link">Projects</a></li>
+          <li><a href="#writing" class="nav__link">Writing</a></li>
+          <li><a href="#experience" class="nav__link">Experience</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+        <button class="nav__menu-btn" id="menuBtn" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" class="mobile-menu__link">About</a>
+      <a href="#skills" class="mobile-menu__link">Skills</a>
+      <a href="#projects" class="mobile-menu__link">Projects</a>
+      <a href="#writing" class="mobile-menu__link">Writing</a>
+      <a href="#experience" class="mobile-menu__link">Experience</a>
+      <a href="#contact" class="mobile-menu__link">Contact</a>
+    </div>
+
+    <!-- ═══════════════════════════════════════════
+         HERO SECTION
+    ═══════════════════════════════════════════ -->
+    <section class="section section--white" id="hero">
+      <div class="blobs">
+        <div class="blob" style="width:500px;height:500px;background:var(--blue);top:20%;left:65%;opacity:0.45;"></div>
+        <div class="blob" style="width:350px;height:350px;background:var(--pink);top:55%;left:10%;opacity:0.35;"></div>
+        <div class="blob" style="width:250px;height:250px;background:var(--purple);top:10%;left:30%;opacity:0.15;"></div>
+      </div>
+      <div class="section__watermark">PRANAY</div>
+      <div class="section__content">
+        <div class="avatar">P</div>
+        <div class="eyebrow">
+          Senior Engineer at Qualcomm &mdash; Open to collaborations
+        </div>
+        <h1 class="headline">
+          Hi, I'm<br />
+          <span class="headline-gradient">Pranay.</span>
+        </h1>
+        <p class="subtext">
+          Software Engineer specializing in scalable data platforms, distributed data pipelines,
+          and cloud-native automation systems. M.Tech from IIT Madras.
+        </p>
+        <div class="hero-ctas">
+          <a href="#projects" class="btn btn--primary">View Projects</a>
+          <a href="#writing" class="btn btn--outline">Read Writing</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/PranayCodeBase" target="_blank" rel="noopener" class="social-link">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+            GitHub
+          </a>
+          <a href="https://linkedin.com/in/pranay-raj" target="_blank" rel="noopener" class="social-link">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a href="mailto:parishapranayraj99@gmail.com" class="social-link">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            Email
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         ABOUT SECTION
+    ═══════════════════════════════════════════ -->
+    <section class="section section--gray" id="about">
+      <div class="section__watermark">ABOUT</div>
+      <div class="section__content">
+        <div class="kicker">
+          <span class="kicker__dot"></span>
+          About Me
+        </div>
+        <h2 class="headline" style="font-size:clamp(36px,6vw,64px);letter-spacing:-1.5px;">
+          Engineer by craft,<br />
+          <span class="headline-gradient">writer by choice.</span>
+        </h2>
+        <p class="subtext" style="margin-bottom:40px;">
+          I'm a Software Engineer with a strong academic foundation from IIT Madras and hands-on
+          experience building scalable data platforms, distributed pipelines, and cloud-native
+          automation systems at Qualcomm and Walmart. I thrive at the intersection of engineering
+          and communication &mdash; building robust systems and writing about them to help others
+          learn and grow.
+        </p>
+
+        <div class="fact-cards">
+          <div class="card card--hover" style="--i:0">
+            <div class="pill pill--blue">Focus</div>
+            <p style="margin-top:12px;font-size:15px;line-height:1.65;color:var(--muted);">
+              Scalable data platforms, distributed pipelines, and cloud-native CI/CD automation.
+            </p>
+          </div>
+          <div class="card card--hover" style="--i:1">
+            <div class="pill pill--pink">Mission</div>
+            <p style="margin-top:12px;font-size:15px;line-height:1.65;color:var(--muted);">
+              Nurture passion, increase visibility, and build an audience through quality technical writing.
+            </p>
+          </div>
+          <div class="card card--hover" style="--i:2">
+            <div class="pill pill--muted">Currently</div>
+            <p style="margin-top:12px;font-size:15px;line-height:1.65;color:var(--muted);">
+              Senior Engineer at Qualcomm, leading CI/CD platform migration and workflow standardization.
+            </p>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+        <div class="kicker" style="margin-bottom:20px;">
+          <span class="kicker__dot"></span>
+          What I'm doing now
+        </div>
+        <ul class="now-list">
+          <li class="now-item">
+            <span class="now-item__label">Building</span>
+            <span class="now-item__text">Migrating 200+ legacy CI/CD workflows to Qualcomm's Coral platform using Python, Docker, and Kubernetes</span>
+          </li>
+          <li class="now-item">
+            <span class="now-item__label">Writing</span>
+            <span class="now-item__text">Technical articles on data engineering, distributed systems, and cloud-native architecture</span>
+          </li>
+          <li class="now-item">
+            <span class="now-item__label">Learning</span>
+            <span class="now-item__text">System design patterns, streaming architectures, and advanced Spark optimization</span>
+          </li>
+          <li class="now-item">
+            <span class="now-item__label">Location</span>
+            <span class="now-item__text">Hyderabad, India</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SKILLS SECTION
+    ═══════════════════════════════════════════ -->
+    <section class="section section--white" id="skills">
+      <div class="section__watermark">SKILLS</div>
+      <div class="section__content">
+        <div class="eyebrow">Tech Stack</div>
+        <h2 class="headline" style="font-size:clamp(36px,6vw,64px);letter-spacing:-1.5px;">
+          Tools &amp; <span class="headline-gradient">Technologies</span>
+        </h2>
+        <p class="subtext" style="margin-bottom:40px;">
+          A curated set of tools and technologies I work with to build, automate, and ship at scale.
+        </p>
+
+        <div class="skills-grid">
+          <div class="card card--hover" style="--i:0">
+            <div class="card__category-label">Languages</div>
+            <div class="tech-tags">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">SQL</span>
+              <span class="tech-tag">C++</span>
+              <span class="tech-tag">Bash</span>
+              <span class="tech-tag">YAML</span>
+            </div>
+          </div>
+          <div class="card card--hover" style="--i:1">
+            <div class="card__category-label">Cloud &amp; Data Platforms</div>
+            <div class="tech-tags">
+              <span class="tech-tag">GCP</span>
+              <span class="tech-tag">BigQuery</span>
+              <span class="tech-tag">GCS</span>
+              <span class="tech-tag">Azure ADLS</span>
+              <span class="tech-tag">Azure Data Factory</span>
+              <span class="tech-tag">PySpark</span>
+              <span class="tech-tag">Spark</span>
+              <span class="tech-tag">Hive</span>
+              <span class="tech-tag">HDFS</span>
+            </div>
+          </div>
+          <div class="card card--hover" style="--i:2">
+            <div class="card__category-label">Infrastructure &amp; Tools</div>
+            <div class="tech-tags">
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">Kubernetes</span>
+              <span class="tech-tag">Git</span>
+              <span class="tech-tag">Airflow</span>
+              <span class="tech-tag">Kafka</span>
+              <span class="tech-tag">Postman</span>
+            </div>
+          </div>
+          <div class="card card--hover" style="--i:3">
+            <div class="card__category-label">Testing</div>
+            <div class="tech-tags">
+              <span class="tech-tag">Pytest</span>
+              <span class="tech-tag">Unittest</span>
+            </div>
+          </div>
+          <div class="card card--hover" style="--i:4">
+            <div class="card__category-label">Concepts</div>
+            <div class="tech-tags">
+              <span class="tech-tag">Distributed Systems</span>
+              <span class="tech-tag">Data Pipelines</span>
+              <span class="tech-tag">Workflow Orchestration</span>
+              <span class="tech-tag">CI/CD Automation</span>
+              <span class="tech-tag">System Design</span>
+            </div>
+          </div>
+          <div class="card card--hover" style="--i:5">
+            <div class="card__category-label">Soft Skills</div>
+            <div class="tech-tags">
+              <span class="tech-tag">Technical Writing</span>
+              <span class="tech-tag">Documentation</span>
+              <span class="tech-tag">Code Review</span>
+              <span class="tech-tag">Cross-functional Collaboration</span>
+              <span class="tech-tag">Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PROJECTS SECTION
+    ═══════════════════════════════════════════ -->
+    <section class="section section--gray" id="projects">
+      <div class="section__watermark">PROJECTS</div>
+      <div class="section__content">
+        <div class="eyebrow">Engineering Work &amp; Side Projects</div>
+        <h2 class="headline" style="font-size:clamp(36px,6vw,64px);letter-spacing:-1.5px;">
+          Things I've <span class="headline-gradient">Built</span>
+        </h2>
+        <p class="subtext" style="margin-bottom:40px;">
+          Production-grade systems, data platforms, and automation tools &mdash; built to solve real problems at scale.
+        </p>
+
+        <div class="card-grid">
+          <div class="card card--hover" style="--i:0">
+            <div class="badge">Qualcomm</div>
+            <h3 class="card__title">Coral CI/CD Platform Migration</h3>
+            <p class="card__desc">
+              Contributed to migration and standardization of 200+ legacy CI/CD workflows from
+              CloudBees to Qualcomm's in-house Coral platform. Improved workflow reliability,
+              operational consistency, and migration efficiency across engineering teams.
+            </p>
+            <div class="tech-tags">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">Kubernetes</span>
+              <span class="tech-tag">CI/CD</span>
+              <span class="tech-tag">YAML</span>
+            </div>
+            <div class="card__links">
+              <a href="https://github.com/PranayCodeBase" target="_blank" rel="noopener" class="card__link">View on GitHub &rarr;</a>
+            </div>
+          </div>
+
+          <div class="card card--hover" style="--i:1">
+            <div class="badge badge--blue">Walmart</div>
+            <h3 class="card__title">Finance Data Lake House Migration</h3>
+            <p class="card__desc">
+              Contributed to Walmart's FDLH migration by developing YAML-driven workflow
+              configurations and Spark-based ingestion pipelines across Hudi, GCS, and BigQuery
+              ecosystems with Airflow DAG orchestration.
+            </p>
+            <div class="tech-tags">
+              <span class="tech-tag">PySpark</span>
+              <span class="tech-tag">BigQuery</span>
+              <span class="tech-tag">GCS</span>
+              <span class="tech-tag">Airflow</span>
+              <span class="tech-tag">Hudi</span>
+              <span class="tech-tag">YAML</span>
+            </div>
+            <div class="card__links">
+              <span class="card__link card__link--muted">Internal Project</span>
+            </div>
+          </div>
+
+          <div class="card card--hover" style="--i:2">
+            <div class="badge badge--blue">Walmart</div>
+            <h3 class="card__title">Allocation Engine Re-architecture</h3>
+            <p class="card__desc">
+              Re-architected legacy data pipelines into modular and reusable Python + BigQuery
+              components enabling incremental processing, parallelization, and improved scalability
+              for business-critical financial analytics.
+            </p>
+            <div class="tech-tags">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">BigQuery</span>
+              <span class="tech-tag">SQL</span>
+              <span class="tech-tag">GCP</span>
+            </div>
+            <div class="card__links">
+              <span class="card__link card__link--muted">Internal Project</span>
+            </div>
+          </div>
+
+          <div class="card card--hover" style="--i:3">
+            <div class="badge badge--purple">Open Source</div>
+            <h3 class="card__title">Technical Portfolio</h3>
+            <p class="card__desc">
+              This portfolio &mdash; built from scratch with vanilla HTML, CSS, and JavaScript.
+              Hosted on GitHub Pages. Designed to showcase projects, writing, and experience.
+            </p>
+            <div class="tech-tags">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">GitHub Pages</span>
+            </div>
+            <div class="card__links">
+              <a href="https://github.com/PranayCodeBase/pranay.github.io" target="_blank" rel="noopener" class="card__link">View Source &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <a href="https://github.com/PranayCodeBase" target="_blank" rel="noopener" class="see-all">
+          See all on GitHub &rarr;
+        </a>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         WRITING SECTION
+    ═══════════════════════════════════════════ -->
+    <section class="section section--white" id="writing">
+      <div class="section__watermark">WRITING</div>
+      <div class="section__content">
+        <div class="eyebrow">Articles &amp; Blog Posts</div>
+        <h2 class="headline" style="font-size:clamp(36px,6vw,64px);letter-spacing:-1.5px;">
+          Thoughts &amp; <span class="headline-gradient">Insights</span>
+        </h2>
+        <p class="subtext" style="margin-bottom:32px;">
+          I write about data engineering, distributed systems, CI/CD, and engineering best practices.
+          Articles are published on Medium and GitHub.
+        </p>
+
+        <div class="filter-pills">
+          <button class="filter-pill active" data-filter="all">All</button>
+          <button class="filter-pill" data-filter="data">Data Engineering</button>
+          <button class="filter-pill" data-filter="cicd">CI/CD</button>
+          <button class="filter-pill" data-filter="systems">Systems</button>
+        </div>
+
+        <div class="writing-list" id="writingList">
+
+          <div class="writing-row" data-tags="cicd">
+            <div class="writing-row__link-wrap">
+              <div class="writing-row__header">
+                <div class="writing-row__main">
+                  <span class="writing-row__title">Migrating 200+ CI/CD Workflows: Lessons from the Coral Platform Migration</span>
+                  <span class="writing-row__subtitle">A deep-dive into large-scale CI/CD migration strategy, tooling, and pitfalls</span>
+                </div>
+                <span class="type-pill type-pill--blog">Blog</span>
+                <span class="status-pill status-pill--in-progress">In Progress</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="writing-row" data-tags="data systems">
+            <div class="writing-row__link-wrap">
+              <div class="writing-row__header">
+                <div class="writing-row__main">
+                  <span class="writing-row__title">Building Scalable Data Pipelines on GCP: A Practical Guide</span>
+                  <span class="writing-row__subtitle">From ingestion to transformation &mdash; designing modular, reusable pipeline components</span>
+                </div>
+                <span class="type-pill type-pill--blog">Blog</span>
+                <span class="status-pill status-pill--coming-soon">Coming Soon</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="writing-row" data-tags="data">
+            <div class="writing-row__link-wrap">
+              <div class="writing-row__header">
+                <div class="writing-row__main">
+                  <span class="writing-row__title">YAML-Driven Workflow Configuration: Patterns and Best Practices</span>
+                  <span class="writing-row__subtitle">How to design flexible, maintainable YAML configurations for data and CI/CD workflows</span>
+                </div>
+                <span class="type-pill type-pill--blog">Blog</span>
+                <span class="status-pill status-pill--coming-soon">Coming Soon</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="writing-row" data-tags="systems">
+            <div class="writing-row__link-wrap">
+              <div class="writing-row__header">
+                <div class="writing-row__main">
+                  <span class="writing-row__title">Distributed Data Systems: Concepts Every Engineer Should Know</span>
+                  <span class="writing-row__subtitle">A practical overview of distributed systems fundamentals for data engineers</span>
+                </div>
+                <span class="type-pill type-pill--blog">Blog</span>
+                <span class="status-pill status-pill--coming-soon">Coming Soon</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="writing-row" data-tags="data cicd">
+            <div class="writing-row__link-wrap">
+              <div class="writing-row__header">
+                <div class="writing-row__main">
+                  <span class="writing-row__title">Airflow DAG Design Patterns for Production Data Pipelines</span>
+                  <span class="writing-row__subtitle">Structuring Airflow DAGs for reliability, observability, and maintainability</span>
+                </div>
+                <span class="type-pill type-pill--blog">Blog</span>
+                <span class="status-pill status-pill--coming-soon">Coming Soon</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="lmk-block" style="margin-top:48px;">
+          <div class="eyebrow">Stay Updated</div>
+          <h3 style="font-family:var(--display);font-size:28px;font-weight:700;color:var(--bg);margin-bottom:12px;letter-spacing:-0.5px;">
+            Want to know when I publish?
+          </h3>
+          <p style="color:rgba(245,243,238,0.5);font-size:15px;line-height:1.6;margin-bottom:24px;">
+            I'm just getting started. Follow me on GitHub and Medium to get notified when new articles drop.
+          </p>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+            <a href="https://github.com/PranayCodeBase" target="_blank" rel="noopener" class="btn btn--pink">Follow on GitHub</a>
+            <a href="https://medium.com/@pranay" target="_blank" rel="noopener" class="btn btn--outline-light">Follow on Medium</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         EXPERIENCE SECTION
+    ═══════════════════════════════════════════ -->
+    <section class="section section--gray" id="experience">
+      <div class="section__watermark">EXPERIENCE</div>
+      <div class="section__content">
+        <div class="eyebrow">Career</div>
+        <h2 class="headline" style="font-size:clamp(36px,6vw,64px);letter-spacing:-1.5px;">
+          Where I've <span class="headline-gradient">Worked</span>
+        </h2>
+
+        <div class="resume-block">
+          <div class="resume-block__label">Work Experience</div>
+          <div class="resume-timeline">
+
+            <div class="resume-item">
+              <div class="resume-item__header" onclick="toggleResume(this)">
+                <div class="resume-item__left">
+                  <span class="resume-item__org">Qualcomm India</span>
+                  <span class="resume-item__role">Senior Engineer &mdash; LINT</span>
+                </div>
+                <div class="resume-item__right">
+                  <span class="resume-item__period">Sep 2025 &mdash; Present</span>
+                  <span class="resume-item__toggle">+</span>
+                </div>
+              </div>
+              <ul class="resume-item__points" style="display:none;">
+                <li>Contributed to migration and standardization of 200+ legacy CI/CD workflows from CloudBees to Qualcomm's in-house Coral platform using Python automation, Docker, and Kubernetes</li>
+                <li>Improved workflow reliability, operational consistency, and migration efficiency across engineering teams</li>
+                <li>Recognized as Star Employee of the Month (April 2026) for contributions to Coral migration initiatives and workflow standardization efforts</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <div class="resume-item__header" onclick="toggleResume(this)">
+                <div class="resume-item__left">
+                  <span class="resume-item__org">Walmart Global Tech India</span>
+                  <span class="resume-item__role">Software Engineer II &mdash; Data Platform</span>
+                </div>
+                <div class="resume-item__right">
+                  <span class="resume-item__period">Sep 2024 &mdash; Aug 2025</span>
+                  <span class="resume-item__toggle">+</span>
+                </div>
+              </div>
+              <ul class="resume-item__points" style="display:none;">
+                <li>Re-architected legacy Essbase-based CPR workflows into scalable GCP + BigQuery pipelines using configurable ingestion and transformation frameworks supporting downstream analytics and financial reporting workloads</li>
+                <li>Developed scalable allocation and metric computation workflows using modular SQL and Python components; designed flexible transformation and retrieval logic supporting business-critical financial analytics pipelines</li>
+                <li>Contributed to Walmart's Finance Data Lake House (FDLH) migration by developing YAML-driven workflow configurations and Spark-based ingestion pipelines across Hudi, GCS, and BigQuery ecosystems; supported Airflow DAG orchestration and on-boarding of domain assets</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <div class="resume-item__header" onclick="toggleResume(this)">
+                <div class="resume-item__left">
+                  <span class="resume-item__org">Walmart Global Tech India</span>
+                  <span class="resume-item__role">Software Engineer &mdash; Data Platform</span>
+                </div>
+                <div class="resume-item__right">
+                  <span class="resume-item__period">Jun 2022 &mdash; Aug 2024</span>
+                  <span class="resume-item__toggle">+</span>
+                </div>
+              </div>
+              <ul class="resume-item__points" style="display:none;">
+                <li>Engineered modular Python components to enhance extensibility and scalability of GCP-based data lake pipelines enabling cloud-native storage integration and reusable ingestion workflows</li>
+                <li>Designed and integrated an event-driven ingestion framework leveraging Java listeners and Azure Data Factory pipelines to automate ingestion of 30+ structured datasets into Google BigQuery</li>
+                <li>Executed large-scale repository and pipeline migrations under strict production timelines with zero data loss; automated dynamic SQL generation and trigger-based data refresh workflows using Python and GCP</li>
+                <li>Re-architected legacy data pipelines into modular and reusable Python + BigQuery components enabling incremental processing, parallelization, and improved scalability; improved test coverage to 99% using pytest and unittest</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="resume-block">
+          <div class="resume-block__label">Education</div>
+          <div class="resume-edu-grid">
+            <div class="card">
+              <div class="resume-edu-card__org">Indian Institute of Technology Madras</div>
+              <div class="resume-edu-card__degree">M.Tech in Computer Science and Engineering</div>
+              <div class="resume-edu-card__period">Jul 2020 &mdash; May 2022 &nbsp;&middot;&nbsp; GPA: 9.43 / 10.0</div>
+              <div class="resume-edu-card__detail">Chennai, Tamil Nadu, India</div>
+            </div>
+            <div class="card">
+              <div class="resume-edu-card__org">Indian Institute of Technology Dharwad</div>
+              <div class="resume-edu-card__degree">B.Tech in Computer Science and Engineering</div>
+              <div class="resume-edu-card__period">Aug 2016 &mdash; Jul 2020 &nbsp;&middot;&nbsp; GPA: 8.13 / 10.0</div>
+              <div class="resume-edu-card__detail">Dharwad, Karnataka, India</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-block">
+          <div class="resume-block__label">Recognition</div>
+          <div class="resume-certs">
+            <span class="resume-cert">Star Employee of the Month &mdash; April 2026</span>
+            <span class="resume-cert">M.Tech GPA 9.43 / 10.0</span>
+            <span class="resume-cert">IIT Madras</span>
+            <span class="resume-cert">IIT Dharwad</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         FOOTER / CONTACT
+    ═══════════════════════════════════════════ -->
+    <footer class="footer" id="contact">
+      <div class="footer__inner">
+        <div class="footer__top">
+          <div class="eyebrow">Let's Connect</div>
+          <h2 style="font-family:var(--display);font-size:clamp(32px,6vw,56px);font-weight:700;color:var(--bg);letter-spacing:-1.5px;line-height:1;margin-top:16px;margin-bottom:16px;">
+            Say hello.
+          </h2>
+          <p style="color:rgba(245,243,238,0.5);font-size:16px;line-height:1.6;max-width:480px;margin-bottom:32px;">
+            I'm always open to interesting conversations, collaborations, and opportunities.
+            Feel free to reach out.
+          </p>
+          <a href="mailto:parishapranayraj99@gmail.com" class="btn btn--pink" style="margin-bottom:40px;">
+            Send an Email &rarr;
+          </a>
+        </div>
+
+        <div class="footer__links">
+          <a href="https://github.com/PranayCodeBase" target="_blank" rel="noopener" class="footer__contact-link">GitHub</a>
+          <a href="https://linkedin.com/in/pranay-raj" target="_blank" rel="noopener" class="footer__contact-link">LinkedIn</a>
+          <a href="https://medium.com/@pranay" target="_blank" rel="noopener" class="footer__contact-link">Medium</a>
+          <a href="mailto:parishapranayraj99@gmail.com" class="footer__contact-link">Email</a>
+        </div>
+
+        <div class="footer__meta">
+          <span>&copy; 2026 Pranay Raj Parisha. Built with vanilla HTML, CSS &amp; JS.</span>
+          <span>Hosted on GitHub Pages</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
