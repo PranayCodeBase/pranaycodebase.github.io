@@ -195,3 +195,33 @@ function toggleResume(header) {
   style.textContent = '.nav__link.active { color: var(--ink); }';
   document.head.appendChild(style);
 })();
+
+/* ── Contact Widget ───────────────────────────────────── */
+(function initContactWidget() {
+  const chips    = document.querySelectorAll('.contact-chip');
+  const response = document.getElementById('contactResponse');
+  const msgEl    = document.getElementById('contactMsg');
+  const ctaEl    = document.getElementById('contactCta');
+  if (!chips.length || !response) return;
+
+  chips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      // Deselect all chips
+      chips.forEach(function (c) { c.classList.remove('selected'); });
+      chip.classList.add('selected');
+
+      const msg  = chip.getAttribute('data-msg');
+      const cta  = chip.getAttribute('data-cta');
+      const href = chip.getAttribute('data-href');
+
+      msgEl.textContent  = msg;
+      ctaEl.textContent  = cta + ' →';
+      ctaEl.href         = href;
+
+      // Reset animation by removing and re-adding class
+      response.classList.remove('visible');
+      void response.offsetWidth; // force reflow
+      response.classList.add('visible');
+    });
+  });
+})();
